@@ -26,28 +26,14 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarLayoutFloatingInline
       navItems={[
-        {
-          name: "Home",
-          id: "/",
-        },
-        {
-          name: "About",
-          id: "/about",
-        },
-        {
-          name: "Services",
-          id: "/services",
-        },
-        {
-          name: "Portfolio",
-          id: "/portfolio",
-        },
-        {
-          name: "Contact",
-          id: "/contact",
-        },
+        { name: "Home", id: "/" },
+        { name: "About", id: "/about" },
+        { name: "Services", id: "/services" },
+        { name: "Portfolio", id: "/portfolio" },
+        { name: "Contact", id: "/contact" },
       ]}
       brandName="AiViqo"
+      button={{ text: "Get Started", href: "/contact" }}
     />
   </div>
 
@@ -69,19 +55,10 @@ export default function LandingPage() {
       animationType="slide-up"
       textboxLayout="default"
       useInvertedBackground={false}
+      description="Our dedicated team of AI and software experts driving digital transformation."
       team={[
-        {
-          id: "t1",
-          name: "Adnan Fida",
-          role: "AI Automation Expert",
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-businessman-with-crossed-arms_23-2148242733.jpg",
-        },
-        {
-          id: "t2",
-          name: "Jameel",
-          role: "Lead AI Engineer",
-          imageSrc: "http://img.b2bpic.net/free-photo/professional-inspector-suit-reviewing-solar-panel-production-showcasing-leadership-renewable_482257-135429.jpg",
-        },
+        { id: "t1", name: "Adnan Fida", role: "AI Automation Expert", imageSrc: "http://img.b2bpic.net/free-photo/front-view-businessman-with-crossed-arms_23-2148242733.jpg" },
+        { id: "t2", name: "Jameel", role: "Lead AI Engineer", imageSrc: "http://img.b2bpic.net/free-photo/professional-inspector-suit-reviewing-solar-panel-production-showcasing-leadership-renewable_482257-135429.jpg" },
       ]}
       title="The AiViqo Core"
     />
@@ -91,45 +68,9 @@ export default function LandingPage() {
       <FooterBaseReveal
       logoText="AiViqo"
       columns={[
-        {
-          title: "Company",
-          items: [
-            {
-              label: "About",
-              href: "/about",
-            },
-            {
-              label: "Portfolio",
-              href: "/portfolio",
-            },
-          ],
-        },
-        {
-          title: "Services",
-          items: [
-            {
-              label: "AI Automation",
-              href: "/services",
-            },
-            {
-              label: "Dev Services",
-              href: "/services",
-            },
-          ],
-        },
-        {
-          title: "Contact",
-          items: [
-            {
-              label: "WhatsApp",
-              href: "https://wa.me/923710993653",
-            },
-            {
-              label: "Support",
-              href: "mailto:support@aiviqo.com",
-            },
-          ],
-        },
+        { title: "Company", items: [{ label: "About", href: "/about" }, { label: "Portfolio", href: "/portfolio" }] },
+        { title: "Services", items: [{ label: "AI Automation", href: "/services" }, { label: "Dev Services", href: "/services" }] },
+        { title: "Contact", items: [{ label: "WhatsApp", href: "https://wa.me/923710993653" }, { label: "Support", href: "mailto:support@aiviqo.com" }] },
       ]}
     />
   </div>
