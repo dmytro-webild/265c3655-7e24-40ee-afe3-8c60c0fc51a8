@@ -6,7 +6,7 @@ import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FaqSplitText from '@/components/sections/faq/FaqSplitText';
 import FeatureBorderGlow from '@/components/sections/feature/featureBorderGlow/FeatureBorderGlow';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
-import HeroLogo from '@/components/sections/hero/HeroLogo';
+import HeroSplitDoubleCarousel from '@/components/sections/hero/HeroSplitDoubleCarousel';
 import MetricCardSeven from '@/components/sections/metrics/MetricCardSeven';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import PricingCardEight from '@/components/sections/pricing/PricingCardEight';
@@ -44,14 +44,23 @@ export default function LandingPage() {
   </div>
 
   <div id="hero" data-section="hero">
-      <HeroLogo
-      logoText="AiViqo"
+      <HeroSplitDoubleCarousel
+      title="Transforming Business Through AI Intelligence"
       description="AiViqo delivers high-performance AI solutions, workflow automation, and custom software to help your business operate at its full potential."
       buttons={[
         { text: "Book a Meeting", href: "https://calendly.com/visuallabstudios/30min?hide_event_type_details=1&hide_gdpr_banner=1" },
         { text: "Contact Us", href: "/contact" },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/tablet-with-applications_1134-123.jpg"
+      background={{ variant: "sparkles-gradient" }}
+      leftCarouselItems={[
+        { imageSrc: "http://img.b2bpic.net/free-photo/tablet-with-applications_1134-123.jpg", imageAlt: "AI Workflow" },
+        { imageSrc: "http://img.b2bpic.net/free-photo/manager-watches-tablet-with-greenscreen_482257-76577.jpg", imageAlt: "Business Data" }
+      ]}
+      rightCarouselItems={[
+        { imageSrc: "http://img.b2bpic.net/free-photo/office-worker-analyzing-business-charts-laptop-using-paperwork-research-information-make-data-report-working-from-home-startup-analysis-with-web-graphs-browsing-internet_482257-50961.jpg", imageAlt: "Automation" },
+        { imageSrc: "http://img.b2bpic.net/free-photo/professional-boardroom-computer-screen-showcases-business-data-statistics-aiding-executives_482257-133141.jpg", imageAlt: "Analytics" }
+      ]}
+      tag="Innovation Partner"
     />
   </div>
 
