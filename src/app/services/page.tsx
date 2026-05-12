@@ -25,28 +25,14 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarLayoutFloatingInline
       navItems={[
-        {
-          name: "Home",
-          id: "/",
-        },
-        {
-          name: "About",
-          id: "/about",
-        },
-        {
-          name: "Services",
-          id: "/services",
-        },
-        {
-          name: "Portfolio",
-          id: "/portfolio",
-        },
-        {
-          name: "Contact",
-          id: "/contact",
-        },
+        { name: "Home", id: "/" },
+        { name: "About", id: "/about" },
+        { name: "Services", id: "/services" },
+        { name: "Portfolio", id: "/portfolio" },
+        { name: "Contact", id: "/contact" },
       ]}
       brandName="AiViqo"
+      button={{ text: "Get Started", href: "/contact" }}
     />
   </div>
 
@@ -56,21 +42,9 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       features={[
-        {
-          icon: Code2,
-          title: "AI Automation",
-          description: "Custom workflows tailored for your business.",
-        },
-        {
-          icon: Smartphone,
-          title: "Web & App Development",
-          description: "High quality modern software development.",
-        },
-        {
-          icon: User,
-          title: "Sales Experts",
-          description: "On-demand sales force integration.",
-        },
+        { icon: Code2, title: "AI Automation", description: "Custom workflows tailored for your business." },
+        { icon: Smartphone, title: "Web & App Development", description: "High quality modern software development." },
+        { icon: User, title: "Sales Experts", description: "On-demand sales force integration." },
       ]}
       title="All Services"
       description="Full-stack AI development and automation services."
@@ -85,21 +59,9 @@ export default function LandingPage() {
       title="Why Choose Our AI Services?"
       description="Industry-leading automation for competitive advantage."
       features={[
-        {
-          icon: Zap,
-          title: "Scalable Infrastructure",
-          description: "Robust architecture built to handle growth.",
-        },
-        {
-          icon: Code,
-          title: "Performance Optimized",
-          description: "Lean, high-speed code for maximum efficiency.",
-        },
-        {
-          icon: Shield,
-          title: "Secure Systems",
-          description: "Enterprise-grade data protection.",
-        },
+        { icon: Zap, title: "Scalable Infrastructure", description: "Robust architecture built to handle growth." },
+        { icon: Code, title: "Performance Optimized", description: "Lean, high-speed code for maximum efficiency." },
+        { icon: Shield, title: "Secure Systems", description: "Enterprise-grade data protection." },
       ]}
     />
   </div>
@@ -108,45 +70,9 @@ export default function LandingPage() {
       <FooterBaseReveal
       logoText="AiViqo"
       columns={[
-        {
-          title: "Company",
-          items: [
-            {
-              label: "About",
-              href: "/about",
-            },
-            {
-              label: "Portfolio",
-              href: "/portfolio",
-            },
-          ],
-        },
-        {
-          title: "Services",
-          items: [
-            {
-              label: "AI Automation",
-              href: "/services",
-            },
-            {
-              label: "Dev Services",
-              href: "/services",
-            },
-          ],
-        },
-        {
-          title: "Contact",
-          items: [
-            {
-              label: "WhatsApp",
-              href: "https://wa.me/923710993653",
-            },
-            {
-              label: "Support",
-              href: "mailto:support@aiviqo.com",
-            },
-          ],
-        },
+        { title: "Company", items: [{ label: "About", href: "/about" }, { label: "Portfolio", href: "/portfolio" }] },
+        { title: "Services", items: [{ label: "AI Automation", href: "/services" }, { label: "Dev Services", href: "/services" }] },
+        { title: "Contact", items: [{ label: "WhatsApp", href: "https://wa.me/923710993653" }, { label: "Support", href: "mailto:support@aiviqo.com" }] },
       ]}
     />
   </div>
