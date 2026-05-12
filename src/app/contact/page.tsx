@@ -24,28 +24,14 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarLayoutFloatingInline
       navItems={[
-        {
-          name: "Home",
-          id: "/",
-        },
-        {
-          name: "About",
-          id: "/about",
-        },
-        {
-          name: "Services",
-          id: "/services",
-        },
-        {
-          name: "Portfolio",
-          id: "/portfolio",
-        },
-        {
-          name: "Contact",
-          id: "/contact",
-        },
+        { name: "Home", id: "/" },
+        { name: "About", id: "/about" },
+        { name: "Services", id: "/services" },
+        { name: "Portfolio", id: "/portfolio" },
+        { name: "Contact", id: "/contact" },
       ]}
       brandName="AiViqo"
+      button={{ text: "Get Started", href: "/contact" }}
     />
   </div>
 
@@ -55,21 +41,10 @@ export default function LandingPage() {
       title="Inquire Today"
       description="Send us your project brief."
       inputs={[
-        {
-          name: "Name",
-          type: "text",
-          placeholder: "Full Name",
-        },
-        {
-          name: "Email",
-          type: "email",
-          placeholder: "Email",
-        },
+        { name: "Name", type: "text", placeholder: "Full Name" },
+        { name: "Email", type: "email", placeholder: "Email" },
       ]}
-      textarea={{
-        name: "Description",
-        placeholder: "Describe your project...",
-      }}
+      textarea={{ name: "Description", placeholder: "Describe your project..." }}
       imageSrc="http://img.b2bpic.net/free-photo/abstract-geometric-background-with-futuristic-design_1048-5529.jpg"
     />
   </div>
@@ -80,21 +55,10 @@ export default function LandingPage() {
       title="Schedule a Discovery Call"
       description="Let's explore your automation roadmap together."
       inputs={[
-        {
-          name: "Name",
-          type: "text",
-          placeholder: "Full Name",
-        },
-        {
-          name: "Phone",
-          type: "tel",
-          placeholder: "Phone Number",
-        },
+        { name: "Name", type: "text", placeholder: "Full Name" },
+        { name: "Phone", type: "tel", placeholder: "Phone Number" },
       ]}
-      textarea={{
-        name: "Note",
-        placeholder: "Your timeline/goals...",
-      }}
+      textarea={{ name: "Note", placeholder: "Your timeline/goals..." }}
       imageSrc="http://img.b2bpic.net/free-photo/modern-geometrical-background-with-copy-space_23-2148811526.jpg"
     />
   </div>
@@ -103,45 +67,9 @@ export default function LandingPage() {
       <FooterBaseReveal
       logoText="AiViqo"
       columns={[
-        {
-          title: "Company",
-          items: [
-            {
-              label: "About",
-              href: "/about",
-            },
-            {
-              label: "Portfolio",
-              href: "/portfolio",
-            },
-          ],
-        },
-        {
-          title: "Services",
-          items: [
-            {
-              label: "AI Automation",
-              href: "/services",
-            },
-            {
-              label: "Dev Services",
-              href: "/services",
-            },
-          ],
-        },
-        {
-          title: "Contact",
-          items: [
-            {
-              label: "WhatsApp",
-              href: "https://wa.me/923710993653",
-            },
-            {
-              label: "Support",
-              href: "mailto:support@aiviqo.com",
-            },
-          ],
-        },
+        { title: "Company", items: [{ label: "About", href: "/about" }, { label: "Portfolio", href: "/portfolio" }] },
+        { title: "Services", items: [{ label: "AI Automation", href: "/services" }, { label: "Dev Services", href: "/services" }] },
+        { title: "Contact", items: [{ label: "WhatsApp", href: "https://wa.me/923710993653" }, { label: "Support", href: "mailto:support@aiviqo.com" }] },
       ]}
     />
   </div>
