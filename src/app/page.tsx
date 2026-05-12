@@ -6,7 +6,7 @@ import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FaqSplitText from '@/components/sections/faq/FaqSplitText';
 import FeatureBorderGlow from '@/components/sections/feature/featureBorderGlow/FeatureBorderGlow';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
-import HeroBillboardGallery from '@/components/sections/hero/HeroBillboardGallery';
+import HeroLogo from '@/components/sections/hero/HeroLogo';
 import MetricCardSeven from '@/components/sections/metrics/MetricCardSeven';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import PricingCardEight from '@/components/sections/pricing/PricingCardEight';
@@ -44,25 +44,14 @@ export default function LandingPage() {
   </div>
 
   <div id="hero" data-section="hero">
-      <HeroBillboardGallery
-      background={{
-        variant: "sparkles-gradient"}}
-      title="Scale Your Business With AI Automation"
+      <HeroLogo
+      logoText="AiViqo"
       description="AiViqo delivers high-performance AI solutions, workflow automation, and custom software to help your business operate at its full potential."
       buttons={[
-        {
-          text: "Book a Meeting",          href: "https://calendly.com/visuallabstudios/30min?hide_event_type_details=1&hide_gdpr_banner=1"},
-        {
-          text: "Contact Us",          href: "/contact"},
+        { text: "Book a Meeting", href: "https://calendly.com/visuallabstudios/30min?hide_event_type_details=1&hide_gdpr_banner=1" },
+        { text: "Contact Us", href: "/contact" },
       ]}
-      mediaItems={[
-        { imageSrc: "http://img.b2bpic.net/free-photo/tablet-with-applications_1134-123.jpg" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/geometric-abstract-phone-wallpaper-technology-concept-connecting-dots-design_53876-160212.jpg" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/3d-abstract-fractal-background-with-plexus-effect_1048-8021.jpg" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/abstract-technology-background-concept_1194-617406.jpg" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/abstract-network-interconnected-nodes-lines-black-background_23-2151977502.jpg" },
-      ]}
-      mediaAnimation="slide-up"
+      imageSrc="http://img.b2bpic.net/free-photo/tablet-with-applications_1134-123.jpg"
     />
   </div>
 
