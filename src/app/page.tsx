@@ -54,10 +54,10 @@ export default function LandingPage() {
       background={{ variant: "sparkles-gradient" }}
       leftCarouselItems={[
         { imageSrc: "http://img.b2bpic.net/free-photo/tablet-with-applications_1134-123.jpg", imageAlt: "AI Workflow" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/manager-watches-tablet-with-greenscreen_482257-76577.jpg", imageAlt: "Business Data" }
+        { imageSrc: "http://img.b2bpic.net/free-photo/manager-watches-tablet-with-greenscreen_482257-76577.jpg?_wi=1", imageAlt: "Business Data" }
       ]}
       rightCarouselItems={[
-        { imageSrc: "http://img.b2bpic.net/free-photo/office-worker-analyzing-business-charts-laptop-using-paperwork-research-information-make-data-report-working-from-home-startup-analysis-with-web-graphs-browsing-internet_482257-50961.jpg", imageAlt: "Automation" },
+        { imageSrc: "http://img.b2bpic.net/free-photo/office-worker-analyzing-business-charts-laptop-using-paperwork-research-information-make-data-report-working-from-home-startup-analysis-with-web-graphs-browsing-internet_482257-50961.jpg?_wi=1", imageAlt: "Automation" },
         { imageSrc: "http://img.b2bpic.net/free-photo/professional-boardroom-computer-screen-showcases-business-data-statistics-aiding-executives_482257-133141.jpg", imageAlt: "Analytics" }
       ]}
       tag="Innovation Partner"
@@ -116,10 +116,10 @@ export default function LandingPage() {
       gridVariant="uniform-all-items-equal"
       useInvertedBackground={false}
       products={[
-        { id: "pr1", name: "AI Lead Gen System", price: "Tech-Stack: Python, AI", imageSrc: "http://img.b2bpic.net/free-photo/manager-watches-tablet-with-greenscreen_482257-76577.jpg" },
+        { id: "pr1", name: "AI Lead Gen System", price: "Tech-Stack: Python, AI", imageSrc: "http://img.b2bpic.net/free-photo/manager-watches-tablet-with-greenscreen_482257-76577.jpg?_wi=2" },
         { id: "pr2", name: "Dental WhatsApp Automation", price: "Tech-Stack: Twilio, Node", imageSrc: "http://img.b2bpic.net/free-photo/general-practitioner-discussing-with-doctor-video-conference-call_482257-123966.jpg" },
         { id: "pr3", name: "Logistics Platform", price: "Tech-Stack: AWS, React", imageSrc: "http://img.b2bpic.net/free-vector/business-infographic-with-photo_23-2148445277.jpg" },
-        { id: "pr4", name: "Medical ERP", price: "Tech-Stack: SQL, Custom", imageSrc: "http://img.b2bpic.net/free-photo/office-worker-analyzing-business-charts-laptop-using-paperwork-research-information-make-data-report-working-from-home-startup-analysis-with-web-graphs-browsing-internet_482257-50961.jpg" },
+        { id: "pr4", name: "Medical ERP", price: "Tech-Stack: SQL, Custom", imageSrc: "http://img.b2bpic.net/free-photo/office-worker-analyzing-business-charts-laptop-using-paperwork-research-information-make-data-report-working-from-home-startup-analysis-with-web-graphs-browsing-internet_482257-50961.jpg?_wi=2" },
         { id: "pr5", name: "Email Campaign Bot", price: "Tech-Stack: SendGrid", imageSrc: "http://img.b2bpic.net/free-photo/doctors-nurses-review-radiography-scans-with-green-screen-desk_482257-123281.jpg" },
       ]}
       title="Portfolio Highlights"
